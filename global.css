@@ -1,0 +1,49 @@
+@import url("fonts.css");
+
+:root {
+  --font-weight-bold: 600;
+  --font-weight-light: 200;
+  --font-weight-medium: 400;
+  --font-weight-regular: 300;
+  --font-weight-semibold: 500;
+  --font-weight-extrabold: 700;
+
+  --reach-dialog: 1;
+  --font-family-gilroy: "gilroy", "Inter", sans-serif;
+  --font-family: "Inter", Futura, -apple-system, sans-serif;
+
+  --primary: #141414;
+  --secondary: #0065fe;
+  --light-blue-background: #F9FBFD;
+  --tetiary: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-gilroy);
+}
+
+.primary-button {
+  border: none;
+  offset: none;
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 50px;
+  background-color: var(--secondary);
+  font-family: var(--font-family-gilroy);
+  font-weight: var(--font-weight-semibold);
+}
+
+.inverse-button {
+  border: none;
+  offset: none;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 50px;
+  color: var(--secondary);
+  background-color: white;
+  border: var(--secondary) solid 1px;
+  font-family: var(--font-family-gilroy);
+  font-weight: var(--font-weight-semibold);
+}

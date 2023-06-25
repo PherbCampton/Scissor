@@ -1,0 +1,51 @@
+.statistics-wrapper {
+    background-color: var(--light-blue-background);
+    margin: 0;
+    padding: 60px 0;
+}
+
+.section-bottom-image {
+    width: 100%;
+    margin-bottom: -3.6px;
+  }
+  
+  .statistics {
+    gap: 120px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1150px;
+    justify-content: space-between;
+  }
+  
+  .statistics-header {
+    margin: 0;
+    padding: 0;
+    min-width: 337px;
+    text-align: left;
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  
+  .figures {
+    width: 100%;
+    display: flex;
+    gap: 72px;
+  }
+  .statistic {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .statistic > h4 {
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .statistic > p {
+    font-size: 16px;
+    margin: 0;
+    word-wrap: normal;
+    text-align: left;
+  }
