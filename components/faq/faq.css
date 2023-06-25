@@ -87,6 +87,7 @@
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
+}
 
 .revolution h1 {
   color: #fff;
@@ -107,5 +108,5 @@
   border-radius: 100px;
   word-wrap: break-word;
   background-color: #3284ff;
-  font-family: var(--font-family-gilroy)
+  font-family: var(--font-family-gilroy);
 }
