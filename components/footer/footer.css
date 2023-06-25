@@ -20,7 +20,7 @@
 }
 
 .footer-body {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -33,6 +33,7 @@
   gap: 73px;
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
 .footer-article-body ul,
